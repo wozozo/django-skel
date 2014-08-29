@@ -1,0 +1,5 @@
+Django>=1.6
+django-braces==1.4
+django-model-utils==2.2
+logutils==0.3.3
+Fabric==1.9.1
