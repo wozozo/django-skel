@@ -14,7 +14,7 @@ https://github.com/django/django/blob/master/django/conf/global_settings.py
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 DJANGO_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 SITE_NAME = os.path.basename(BASE_DIR)
 
 ####################
@@ -60,9 +60,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'apps.urls'
+ROOT_URLCONF = 'urls'
 
-WSGI_APPLICATION = 'apps.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
