@@ -3,4 +3,4 @@ django-braces==1.4
 django-model-utils==2.2
 django-storages==1.1.8
 logutils==0.3.3
-Fabric==1.9.1
+Fabric==1.10.0
