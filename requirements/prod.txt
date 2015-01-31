@@ -1,5 +1,5 @@
 -r common.txt
-boto==2.34.0
+boto==2.36.0
 gevent==1.0.1
-gunicorn==19.1.1
+gunicorn==19.2.0
 PyMySQL==0.6.3
