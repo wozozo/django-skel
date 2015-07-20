@@ -1,5 +1,5 @@
 Django>=1.7
-django-braces==1.8.0
+django-braces==1.8.1
 django-model-utils==2.2
 django-storages==1.1.8
 logutils==0.3.3
