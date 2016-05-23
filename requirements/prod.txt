@@ -1,5 +1,5 @@
 -r common.txt
 boto==2.40.0
 gevent==1.1.1
-gunicorn==19.5.0
+gunicorn==19.6.0
 PyMySQL==0.7.3
